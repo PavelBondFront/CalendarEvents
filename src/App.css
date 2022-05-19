@@ -1,0 +1,67 @@
+.md-mobile-picker-header {
+  font-size: 14px;
+}
+
+input.md-mobile-picker-input {
+  color: initial;
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-family: arial, verdana, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
+
+.md-mobile-picker-button.mbsc-button {
+  font-size: 13px;
+  padding: 0 15px;
+  line-height: 36px;
+  float: right;
+  margin: 6px 0;
+  width: 100%;
+}
+
+.mbsc-col-no-padding {
+  padding-left: 0;
+}
+
+.md-mobile-picker-box-label.mbsc-textfield-wrapper-box,
+.md-mobile-picker-box-label .mbsc-textfield-wrapper-box,
+.md-mobile-picker-inline {
+  margin: 6px 0 12px 0;
+}
+
+#root .mbsc-calendar-cell.mbsc-flex-1-0-0.mbsc-calendar-day.mbsc-ios.mbsc-ltr > div:first-child div, .mbsc-popover-list .mbsc-event > div:first-child div {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.mbsc-calendar-grid.mbsc-flex-1-1.mbsc-flex-col.mbsc-ios{
+  overflow: hidden;
+}
+.mbsc-calendar-button-prev, .mbsc-calendar-button-next{
+  display: none;
+}
+.md-header-filter-controls{
+  width: 100%;
+}
+.mbsc-segmented.mbsc-ios.mbsc-ltr{
+  width: calc(100% - 1.5rem);
+}
+
+@media screen and (max-width: 992px){
+  .mbsc-segmented.mbsc-ios.mbsc-ltr{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .mbsc-segmented.mbsc-ios.mbsc-ltr .mbsc-segmented-item{
+    width: 50%;
+    flex: auto!important;
+  }
+
+}
+
